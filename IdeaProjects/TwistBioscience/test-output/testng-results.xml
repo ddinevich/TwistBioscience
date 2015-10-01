@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Automation Test" duration-ms="19093" started-at="2015-10-01T04:14:30Z" finished-at="2015-10-01T04:14:49Z">
+  <suite name="Automation Test" duration-ms="25005" started-at="2015-10-01T04:46:01Z" finished-at="2015-10-01T04:46:26Z">
     <groups>
     </groups>
-    <test name="Smoke Testcases" duration-ms="19093" started-at="2015-10-01T04:14:30Z" finished-at="2015-10-01T04:14:49Z">
+    <test name="Smoke Testcases" duration-ms="25005" started-at="2015-10-01T04:46:01Z" finished-at="2015-10-01T04:46:26Z">
       <class name="com.FrameworkTestCases.TestCases">
-        <test-method status="PASS" signature="submitApp()[pri:0, instance:com.FrameworkTestCases.TestCases@6bdf28bb]" name="submitApp" duration-ms="19041" started-at="2015-09-30T21:14:30Z" finished-at="2015-09-30T21:14:49Z">
+        <test-method status="PASS" signature="submitApp()[pri:0, instance:com.FrameworkTestCases.TestCases@6bdf28bb]" name="submitApp" duration-ms="24963" started-at="2015-09-30T21:46:01Z" finished-at="2015-09-30T21:46:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitApp -->

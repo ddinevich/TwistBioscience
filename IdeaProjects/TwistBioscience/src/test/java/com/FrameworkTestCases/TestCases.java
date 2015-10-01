@@ -2,6 +2,8 @@ package com.FrameworkTestCases;
 
 import com.PagesClasses.BasePage;
 import com.PagesClasses.HomePageFactory;
+import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
@@ -32,5 +34,6 @@ public class TestCases extends BasePage
         homePage.setDropdownReferrals();
         homePage.setInputTextOtherDna("Automated test to introduce...");
         homePage.clickBtnSubmitForm();
+        Assert.assertTrue(driver.findElement(By.id("gform_confirmation_message_1")).isDisplayed());
     }
 }
