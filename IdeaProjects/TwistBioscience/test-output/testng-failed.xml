@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation Test]">
+  <test name="Smoke Testcases(failed)">
+    <classes>
+      <class name="com.FrameworkTestCases.TestCases">
+        <methods>
+          <include name="submitApp"/>
+        </methods>
+      </class> <!-- com.FrameworkTestCases.TestCases -->
+    </classes>
+  </test> <!-- Smoke Testcases(failed) -->
+</suite> <!-- Failed suite [Automation Test] -->
